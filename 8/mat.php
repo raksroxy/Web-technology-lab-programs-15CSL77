@@ -36,13 +36,17 @@ echo "\n";
 
 // multiplication 
 echo "\nThe product of matrix A and B is:\n"; 
-for($r = 0; $r < $rowCount; $r++) 
-{ for($c=0; $c < $colCount; $c++) 
-{ 
-$val= $matrix1[$r][$c] * $matrix2[$r][$c]; 
-echo $val."\t"; 
-} 
-echo "\n"; 
-} 
+$r =  array();
+for ($i=0;$i< $rowCount;$i++){
+		for($j=0;$j<$colCount;$j++){
+			$r[$i][$j]=0;
+			for($k=0;$k<$rowCount;$k++){
+				$r[$i][$j]+=$matrix1[$i][$k]*$matrix2[$k][$j];
+			}
+		echo $r[$i][$j]."\t" ;
+		}
+	echo "\n";
+	}
+
 
 ?>
