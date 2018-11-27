@@ -1,0 +1,30 @@
+<?xml-stylesheet type="text/css" href="style.css"?> 
+<all>
+<student>
+<name>Ali</name>
+<usn>115009</usn>
+<college>college name</college>
+<branch>CSE</branch>
+<YOJ>2015</YOJ>
+<email>email@domain.com</email>
+</student>
+
+<student>
+<name>Jessi</name>
+<usn>115031</usn>
+<college>college name</college>
+<branch>CSE</branch>
+<YOJ>2015</YOJ>
+<email>Jessi@gmail.com</email>
+</student>
+
+<student>
+<name>John</name>
+<usn>115012</usn>
+<college>college name</college>
+<branch>CSE</branch>
+<YOJ>2015</YOJ>
+<email>John@gmail.com</email>
+</student>
+</all>
+

@@ -1,0 +1,16 @@
+step1: Login to mysql and create database 
+create database stud
+
+step2: Create table student 
+
+creat table student(
+	usn varchar(20),
+	name varchar(20)
+);
+
+step3: Add some entries 
+
+insert into student VALUES("115009","Ali");
+insert into student VALUES("115001","Aff");
+insert into student VALUES("115007","Akash");
+insert into student VALUES("115008","Ak");

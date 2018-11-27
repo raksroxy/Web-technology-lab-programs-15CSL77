@@ -1,0 +1,26 @@
+all {
+	display: block ;
+	font-size:80%;
+	font-family:Verdana;
+	width: 100%;
+	color: black;
+   
+}
+student {
+    border-style: solid;
+    padding : 5px;
+    border-color:black;
+	display: block ;
+	margin:1.5em;
+}
+college{
+    font-weight: bold;
+}
+email{
+  color : blue;  
+}
+name{
+      color : red;  
+
+}
+
